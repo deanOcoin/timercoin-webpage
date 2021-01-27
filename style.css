@@ -1,20 +1,41 @@
 body{
-    background-image: url('Imgs/clockGif.gif');
+    background-color: rgba(55, 64, 92, 0.89);
     background-size: cover;
     height: 100vh;
     padding:0;
     margin:0;
 }
 
+div.dabout:hover{color: #254a61;}
+
+.dabout{
+    padding:10px;
+    width:55px;
+}
+
+.btn {
+    background-color: rgb(3, 28, 53);
+    border: none;
+    color: white;
+    padding: 20px 55px;
+    cursor: pointer;
+    font-size: 28px;
+  }
+
+.btn:hover {
+    background-color: rgb(31, 39, 110);
+}
+
+.btn {margin-top: 175px;}
+
 @font-face {
-    font-family: roboto-mono;
-    src: url(Fonts/RobotoMono-VariableFont_wght.ttf);
-    font-weight: bold;
+    font-family: inconsolata;
+    src: url(Fonts/Inconsolata-VariableFont_wdth\,wght.ttf)
 }
 
 @font-face {
-    font-family: fire-sans;
-    src: url(Fonts/FiraSans-Medium.ttf);
+    font-family: yuseimagic;
+    src: url(Fonts/YuseiMagic-Regular.ttf);
     font-weight: bold;
 }
 
@@ -23,21 +44,3 @@ body{
     src: url(Fonts/Oxygen-Bold.ttf);
     font-weight: bold;
 }
-
-@font-face {
-    font-family: quicksand;
-    src: url(Fonts/Quicksand-VariableFont_wght.ttf);
-    font-weight: bold;
-}
-
-button {
-    padding: 0;
-}
-
-
-
-
-
-
-
-
